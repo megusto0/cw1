@@ -13,7 +13,6 @@ public class Main {
 
         Employee poor = minimalSalaryEmployee();
         System.out.println(poor.getSalary());
-
         System.out.println(averageSalary());
 
     }
