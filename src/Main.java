@@ -36,10 +36,10 @@ public class Main {
         int minSalary = employees[0].getSalary();
         for (Employee employee: employees) {
             if (employee != null)
-            if (minSalary > employee.getSalary()) {
-                minSalary = employee.getSalary();
-                minimal = employee;
-            }
+                if (minSalary > employee.getSalary()) {
+                    minSalary = employee.getSalary();
+                    minimal = employee;
+                }
         }
         return minimal;
     }
@@ -49,10 +49,10 @@ public class Main {
         int maxSalary = employees[0].getSalary();
         for (Employee employee: employees) {
             if (employee != null)
-            if (maxSalary < employee.getSalary()) {
-                maxSalary = employee.getSalary();
-                maximal = employee;
-            }
+                if (maxSalary < employee.getSalary()) {
+                    maxSalary = employee.getSalary();
+                    maximal = employee;
+                }
         }
         return maximal;
     }
